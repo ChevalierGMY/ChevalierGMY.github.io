@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chevalier Guillaume</title> <!--C'est le nom affiché tout en haut-->
+    <meta charset="utf-8" /> <!-- c'est le format du texte  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="main.css" /> 
+    <!--Le style de la page est défini par un fichier extérieur dont l'adresse figure à droite du href-->
+    <!--Note pour plus tard, on peut ajouter un paramètre conditionnel pour par exemple donner un style CSS pour mobile, au lieu du style PC par défaut d'où l'utilité du viewport-->
+    <link rel="icon" href="shield.png"> 
+    <!--L'icone de la page est défini par un fichier extérieur dont l'adresse figure à droite du href-->
+  </head>
+
+<body style="background-color: #cce2d8;">
+  <div class="language-switch" onclick="switchLanguage()">French</div>
+<h1 style="text-align: center">Personal webpage of Chevalier Guillaume <br />
+</h1>
+<img alt="Picture_of_me" align="right"
+src="CG_Pic.jpg" width="500"><br>
+<p>I just completed a Ph.D under the supervision of <a href="https://imag.umontpellier.fr/~quint/">Jean-François QUINT</a> at the <a href="https://imag.umontpellier.fr/" > IMAG</a> and the <a href="https://www.math.u-bordeaux.fr/fr/" > IMB</a>. My manuscript can be found <a href="https://theses.fr/2025BORD0096">here</a>.
+</p>
+<p>
+I am currently looking for a postdoctoral position and I am open to any type of collaboration. You can find my resume <a href="CV_Chevalier_G_EN.pdf"> here </a>.
+</p>
+
+<h3>About me</h3>
+I am passionate about Mathematics, but since I had to make a choice, I chose to study random walks on groups. <BR>
+I study random walks on spaces with negative curvature. The objective of my thesis was to obtain new inequalities for the return probabilities on such spaces. <BR>
+I have a strong interest in complex analysis, probability, dynamical systems, and geometry, and I am eager to begin new projects at the interface of these fields.
+
+<h3> (Pre)publications</h3>
+<ul>
+  <li>2025. The dependency digraph for irreducible finite-range random walk in free groups.
+    <a href="https://hal.science/hal-05160392v1">⟨hal-05160392⟩</a> or 
+  		<a href="https://arxiv.org/abs/2507.15902"> arXiv:2507.15902 </a>
+  </li>
+  <li>2025. Asymptotic Expansion of passage probability for finite-range random walk on Free Groups.
+    <a href="https://hal.science/hal-05160387v1">⟨hal-05160387⟩</a> or 
+  		<a href="https://arxiv.org/abs/2507.15392"> arXiv:2507.15392</a>
+  </li>
+  <li>2025. Tauberian Theorem: Square-root singularity and Ramified covering of degree two.
+    <a href="https://hal.science/hal-05160381v1">⟨hal-05160381⟩</a> or 
+  	 	<a href="https://arxiv.org/abs/2507.15394"> arXiv:2507.15394  </a></li>
+  
+  <li>2020. Idéaux symétriques et facteurs invariants <a href="https://www.quadrature-mag.fr/catalogue/ouvrage/quadrature-n-118-qua118" target="_blank" >Quadrature n°118</a>
+  </li>
+</ul>
+</p>
+<h3> Projects ongoing</h3>
+<ul>
+  <li>Marco VS Polo: Une étude des représentations du plan projectif (vulgarisation)
+    <ul>
+      under development.
+    </ul>
+  </li>
+</ul>
+
+
+
+</body>
+<footer>Contact : guillaume.chevalier1 [a] umontpellier [dot] fr</footer>
+<script>
+
+  function switchLanguage() {
+    const currentPage = window.location.pathname;
+    if (currentPage.includes('HomePage_FR.html')) {
+      window.location.href = 'HomePage_EN.html';
+    } else {
+      window.location.href = 'HomePage_FR.html';
+    }
+  }
+</script>
+<!-- /otherstuff.html -->
+
+</html>
